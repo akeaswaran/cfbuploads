@@ -21,6 +21,7 @@ CFBUploads requires iOS 9.0 and Xcode 7 or greater.
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * [ApolloDB](https://github.com/jchomali/ApolloDB)
 * [DFCache](https://github.com/kean/DFCache)
+* [HexColors](https://github.com/mRs-/HexColors)
 * [Mantle](https://github.com/github/Mantle)
 * [RedditKit](https://github.com/samsymons/RedditKit)
 * [SUBLicenseViewController](https://github.com/insanj/SUBLicenseViewController)
