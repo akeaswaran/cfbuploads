@@ -1,4 +1,4 @@
-# cfbuploads
+# CFBUploads
 An iPhone app for the /r/CFBUploads subreddit.
 
 ## Installation
