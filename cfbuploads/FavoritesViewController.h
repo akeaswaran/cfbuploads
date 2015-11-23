@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@import SafariServices;
 
+@interface FavoritesViewController : UITableViewController
 
+-(void)refreshData:(NSDictionary*)savedDB;
 @end
 

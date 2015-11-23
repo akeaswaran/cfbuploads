@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import AVFoundation;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

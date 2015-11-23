@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@import SafariServices;
+
+@interface TopVideosViewController : UITableViewController
 
 
 @end
