@@ -30,7 +30,7 @@ CFBUploads requires iOS 9.0 and Xcode 7 or greater.
 ## Images 
 
 ![Screenshot 1](https://raw.githubusercontent.com/akeaswaran/cfbuploads/master/Screenshots/screenshot_1.jpg)
-![Screenshot 2](https://github.com/akeaswaran/cfbuploads/blob/master/Screenshots/screenshot_2.jpg)
+![Screenshot 2](https://raw.githubusercontent.com/akeaswaran/cfbuploads/master/Screenshots/screenshot_2.jpg)
 
 ## Need Help?
 
