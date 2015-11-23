@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,11 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/r/CFBUploads" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZS-FK-gv5">
-                                <rect key="frame" x="176" y="216" width="249" height="88"/>
+                                <rect key="frame" x="20" y="165" width="560" height="71"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="249" id="jUL-fo-XOS"/>
-                                    <constraint firstAttribute="height" constant="88" id="ljS-i2-BcA"/>
+                                    <constraint firstAttribute="height" constant="71" id="0UR-Qg-QCb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" red="0.0" green="0.59215686274509804" blue="0.24882352941176472" alpha="1" colorSpace="calibratedRGB"/>
@@ -31,10 +31,22 @@
                                 <rect key="frame" x="166" y="559" width="269" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="4JP-rB-Yhc"/>
-                                    <constraint firstAttribute="width" constant="269" id="SQ7-jc-CKI"/>
+                                    <constraint firstAttribute="width" constant="269" id="IUK-vx-FRb"/>
+                                    <constraint firstAttribute="height" constant="21" id="N0k-sA-5qw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.59215686270000001" blue="0.24882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPL-b4-bbO">
+                                <rect key="frame" x="20" y="244" width="560" height="65"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="b1D-z1-Nod"/>
+                                </constraints>
+                                <string key="text">Relive Your Glory Days 
+Reddit's CFB Game Source</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.59215686270000001" blue="0.24882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -42,10 +54,14 @@
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="jMi-cL-sWV" secondAttribute="bottom" constant="20" symbolic="YES" id="0aM-Vq-3ik"/>
-                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="196" id="BVV-Ni-KA7"/>
-                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MbG-AX-WT8"/>
-                            <constraint firstItem="jMi-cL-sWV" firstAttribute="centerX" secondItem="2ZS-FK-gv5" secondAttribute="centerX" id="g69-4F-b2W"/>
+                            <constraint firstItem="jMi-cL-sWV" firstAttribute="centerX" secondItem="dPL-b4-bbO" secondAttribute="centerX" id="9Yc-Wr-hId"/>
+                            <constraint firstItem="dPL-b4-bbO" firstAttribute="leading" secondItem="2ZS-FK-gv5" secondAttribute="leading" id="D5y-la-fRf"/>
+                            <constraint firstItem="dPL-b4-bbO" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="PCp-wU-t4L"/>
+                            <constraint firstItem="dPL-b4-bbO" firstAttribute="top" secondItem="2ZS-FK-gv5" secondAttribute="bottom" constant="8" symbolic="YES" id="XZH-uA-X3o"/>
+                            <constraint firstAttribute="bottom" secondItem="jMi-cL-sWV" secondAttribute="bottom" constant="20" symbolic="YES" id="bOy-Py-HIu"/>
+                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="bVb-7W-MZz"/>
+                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="145" id="yKO-oI-Z70"/>
+                            <constraint firstItem="dPL-b4-bbO" firstAttribute="trailing" secondItem="2ZS-FK-gv5" secondAttribute="trailing" id="zLq-q6-ox5"/>
                         </constraints>
                     </view>
                 </viewController>
