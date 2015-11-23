@@ -7,4 +7,4 @@ Make sure you have CocoaPods installed on your computer. After cloning the repo 
 
 ###License
 
-See License.md for details. 
+See [LICENSE.md](https://github.com/akeaswaran/cfbuploads/blob/master/LICENSE.md) for details. 
