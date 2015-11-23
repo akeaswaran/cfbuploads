@@ -49,6 +49,7 @@
     [[UITabBar appearance] setBarStyle:UIBarStyleBlack];
     [[UITabBar appearance] setTintColor:[UIColor hx_colorWithHexString:@"#009740"]];
     [[UINavigationBar appearance] setTintColor:[UIColor hx_colorWithHexString:@"#009740"]];
+    self.window.tintColor = [UIColor hx_colorWithHexString:@"#009740"];
     
 }
 

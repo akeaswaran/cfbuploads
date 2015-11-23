@@ -14,7 +14,7 @@
 #import <HexColors.h>
 #import <DFCache.h>
 #import "ApolloDB.h"
-#import "SUBLicenseViewController.h"
+#import "SettingsViewController.h"
 
 @interface TopVideosViewController () {
     NSMutableArray *links;
@@ -43,9 +43,9 @@
 }
 
 -(void)openSettings {
-    SUBLicenseViewController *licenseViewController = [[SUBLicenseViewController alloc] init];
-    licenseViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissVC)];
-    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:licenseViewController] animated:YES completion:nil];
+    SettingsViewController *settingsViewController = [[SettingsViewController alloc] init];
+    settingsViewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissVC)];
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:settingsViewController] animated:YES completion:nil];
 }
 
 -(void)dismissVC {
@@ -114,6 +114,10 @@
     }
     
     return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return CGFLOAT_MIN;
 }
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {

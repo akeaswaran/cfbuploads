@@ -31,6 +31,7 @@
 		7585B6711C02AB4C00203545 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7585B6661C02AB4C00203545 /* Icon-Spotlight-40@3x.png */; };
 		7585B6721C02AB4C00203545 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7585B6671C02AB4C00203545 /* Icon.png */; };
 		7585B6731C02AB4C00203545 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7585B6681C02AB4C00203545 /* Icon@2x.png */; };
+		7585B6781C02D78700203545 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585B6771C02D78700203545 /* SettingsViewController.m */; };
 		D395CFF6CF24D3FBFB125932 /* libPods-cfbuploads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88506BD233F341C5818E4BA7 /* libPods-cfbuploads.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		7585B6661C02AB4C00203545 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
 		7585B6671C02AB4C00203545 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		7585B6681C02AB4C00203545 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7585B6761C02D78700203545 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7585B6771C02D78700203545 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		88506BD233F341C5818E4BA7 /* libPods-cfbuploads.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cfbuploads.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,6 +124,8 @@
 				7585B61F1C0025FF00203545 /* TopVideosViewController.m */,
 				7585B6211C0025FF00203545 /* FavoritesViewController.h */,
 				7585B6221C0025FF00203545 /* FavoritesViewController.m */,
+				7585B6761C02D78700203545 /* SettingsViewController.h */,
+				7585B6771C02D78700203545 /* SettingsViewController.m */,
 				7585B6751C02AB9300203545 /* Third-Party */,
 				7585B6741C02AB8A00203545 /* Images */,
 				7585B6271C0025FF00203545 /* Assets.xcassets */,
@@ -310,6 +315,7 @@
 				7585B6481C00527800203545 /* ApolloDB.m in Sources */,
 				7585B6201C0025FF00203545 /* TopVideosViewController.m in Sources */,
 				7585B61A1C0025FF00203545 /* main.m in Sources */,
+				7585B6781C02D78700203545 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
