@@ -20,19 +20,32 @@
                                 <rect key="frame" x="176" y="216" width="249" height="88"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="249" id="jfb-Jt-glM"/>
+                                    <constraint firstAttribute="width" constant="249" id="jUL-fo-XOS"/>
+                                    <constraint firstAttribute="height" constant="88" id="ljS-i2-BcA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.59215686274509804" blue="0.24882352941176472" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2015 Akshay Easwaran" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMi-cL-sWV">
+                                <rect key="frame" x="166" y="559" width="269" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4JP-rB-Yhc"/>
+                                    <constraint firstAttribute="width" constant="269" id="SQ7-jc-CKI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.59215686270000001" blue="0.24882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="196" id="4ib-Ta-2qH"/>
-                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5Fj-32-bMB"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="2ZS-FK-gv5" secondAttribute="bottom" constant="296" id="VXJ-fK-yWK"/>
+                            <constraint firstAttribute="bottom" secondItem="jMi-cL-sWV" secondAttribute="bottom" constant="20" symbolic="YES" id="0aM-Vq-3ik"/>
+                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="196" id="BVV-Ni-KA7"/>
+                            <constraint firstItem="2ZS-FK-gv5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MbG-AX-WT8"/>
+                            <constraint firstItem="jMi-cL-sWV" firstAttribute="centerX" secondItem="2ZS-FK-gv5" secondAttribute="centerX" id="g69-4F-b2W"/>
                         </constraints>
                     </view>
                 </viewController>

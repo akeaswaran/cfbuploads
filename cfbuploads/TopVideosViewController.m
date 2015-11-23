@@ -72,7 +72,7 @@
         if (!error) {
             links = [NSMutableArray arrayWithArray:collection];
             for (RKLink *link in collection) {
-                if ([link.title.lowercaseString containsString:@"request"] || link.stickied) {
+                if ([link.title.lowercaseString containsString:@"request"] || link.stickied || link.isSelfPost) {
                     [links removeObject:link];
                 }
             }
@@ -153,6 +153,7 @@
         [[NSNotificationCenter defaultCenter] postNotificationName:@"savedUpdate" object:[savedCache cachedObjectForKey:@"savedDB"]];
         [self.tableView reloadData];
     }];
+    
     return @[favAction];
 }
 
