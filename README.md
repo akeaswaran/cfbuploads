@@ -1,5 +1,5 @@
 # CFBUploads for iPhone
-An iPhone app for the /r/CFBUploads subreddit.
+An iPhone app for the [/r/CFBUploads](https://reddit.com/r/cfbuploads/) subreddit.
 
 ## Installation
 
