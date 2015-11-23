@@ -1,6 +1,11 @@
 # cfbuploads
 An iPhone app for the /r/CFBUploads subreddit.
 
+## Images 
+
+![Screenshot 1](https://raw.githubusercontent.com/akeaswaran/cfbuploads/master/Screenshots/screenshot_1.jpg)
+![Screenshot 2](https://github.com/akeaswaran/cfbuploads/blob/master/Screenshots/screenshot_2.jpg)
+
 ## Installation
 
 Make sure you have CocoaPods installed on your computer. After cloning the repo to your computer, run `pod install` on the cfbuploads directory to install all of the third-party libraries. Then, open cfbuploads.xcworkspace and follow along below.
