@@ -36,7 +36,7 @@ CFBUploads requires iOS 9.0 and Xcode 7 or greater.
 
 Open an [issue](https://github.com/akeaswaran/cfbuploads/issues/new).
 
-### License
+## License
 
 See [LICENSE.md](https://github.com/akeaswaran/cfbuploads/blob/master/LICENSE.md) for details. 
 
